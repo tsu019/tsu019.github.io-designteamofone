@@ -102,7 +102,7 @@ div {
 }
 
 .link {
-    background-color: #E9E9E9;
+    background-color: #F4F4F4;
     border-radius: 4px;
     height: auto;
     margin-bottom: 16px;
@@ -123,9 +123,16 @@ a {
 }
 
 .social-link {
-    background-color: #E9E9E9;
+    background-color: #F4F4F4;
     border-radius: 4px;
     margin-bottom: 24px;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.social-link img {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
 }
 
 .top {
@@ -174,7 +181,7 @@ a {
     transition: box-shadow .3s ease-in-out
 }
 
-.resource-card:hover {
+.resource-card:hover, .social-link:hover, .link:hover{
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
@@ -217,3 +224,6 @@ a {
     }
 }
 
+.form {
+    margin: 3rem auto 1.5rem auto;
+}
