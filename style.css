@@ -24,12 +24,14 @@ h4 {
     font-family: "Basis Grotesque Pro";
     src: url(BasisGrotesquePro-Regular.ttf);
     font-weight: 400;
+    src: url('BasisGrotesquePro-Regular.ttf')  format('truetype');
 }
 
 @font-face {
     font-family: "Basis Grotesque Pro";
     src: url(BasisGrotesquePro-Bold.ttf);
     font-weight: 700;
+    src: url('BasisGrotesquePro-Regular.ttf')  format('truetype');
 }
 
 
@@ -82,7 +84,7 @@ h4 {
 }
 
 div {
-    font-family: "Basis Grotesque Pro";
+    font-family: "Basis Grotesque Pro", "Helvetica Neue", sans-serif ;
 }
 
 .container {
